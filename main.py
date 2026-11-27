@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """The funniest sick-day excuse.
 
-Prints the entry line and writes it to output/entry.txt (and to
-/output/entry.txt when that directory is writable), for make.fun's
-"The Funniest Sick-Day Excuse" bounty.
+Prints the entry line and writes it to output/entry.txt.
 """
 import os
 
 LINE = "Can't come in today, my cat learned to open the front door and has been standing in the hallway staring at me for three hours. I'm not sick, I'm just scared to leave the house."
-
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
