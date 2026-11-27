@@ -6,6 +6,10 @@
 
 One line that calls in sick with a laugh: a tiny program that writes the funniest sick-day excuse to output/entry.txt.
 
+## How it works
+
+Running `main.py` prints the excuse and saves the same line to `output/entry.txt`.
+
 ## Run it
 
 ```sh
